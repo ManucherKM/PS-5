@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(126,106,255);
+    background: linear-gradient(220deg, rgba(126,106,255,1) 0%, rgba(177,126,253,1) 100%);
+    font-family: 'MullerLight', sans-serif;
+    color: #fff;
+}
+
+@font-face {
+    font-family: "MullerLight"; 
+    src: url("../fonts/Fontfabric - MullerUltraLight.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "MullerBold"; 
+    src: url("../fonts/Fontfabric - MullerExtraBold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+    
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.header_1 {
+    display: flex;
+
+}
+
+.PS {
+    padding: 42px 0 0 130px;
+}
+.menu {
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 490px;
+    z-index: 10;
+}
+
+.spisok {
+    display: flex;
+}
+.element {
+    padding-right: 34px;
+}
+
+.g {
+    padding-right: 0;
+}
+.btn {
+    background: #000;
+    color: #fff;
+    font-size: 16pt;
+    border-radius: 100px;
+    border: none;
+    padding: 17px 30px;
+    font-weight: bold;
+    margin: 30px 0 0 490px;
+}
+
+.kaplya {
+    padding-left: 300px;
+    float: right;
+    position: absolute;
+    z-index: 0;
+}
+
+.jostik {
+    position: absolute;
+    float: right;
+    padding-left: 900px;
+    padding-top: 94px;
+    z-index: 0;
+    top: 50px;
+}
+
+.header_1 {
+    z-index: auto;
+} 
+
+.h1 {
+    font-weight: bold;
+    font-size: 96px;
+    letter-spacing: -4%;
+    margin: 280px 0 0 130px;
+    font-family: 'MullerBold', sans-serif;
+}
+
+.btn {
+    z-index: 3;
+}
+.abzats {
+    width: 384px;
+    line-height: 1.6em;
+    margin: 29px 0 0 130px;
+}
+
+.buy {
+    margin: 29px 0 0 130px;
+}
+
+.strok {
+    position: absolute;
+    left: -5px;
+    top: 616px;
+    background: #272a3000;
+    border: 5px solid rgba(255, 255, 255, 0.15);
+    border-radius: 100px;
+    color: rgba(126, 106, 255, 0);
+}
+
+.more {
+    background: rgba(255, 255, 255, 0.603);
+    color: #000;
+    margin: 0 0 0 21px;
+}
+
+.t {
+    position: absolute;
+    background: rgba(126, 106, 255, 0);
+    color: rgba(126, 106, 255, 0);
+    border: 5px solid rgba(255, 255, 255, 0.15);
+    top: 645px;
+    left: 230px;
+}
+
+.buttons {
+    padding: 0 0 260px 0;
+}
